@@ -15,7 +15,7 @@
 
 ![使用 OmegaT 编辑行](https://github.com/DlangRen/Programming-in-D-OmegaT/blob/master/images/readme2_1.png)
 
-#### 怎样才能做到呢？请看[配置 OmegaT 为 Programming-in-D 服务:Wiki](https://github.com/DlangRen/Programming-in-D-OmegaT/wiki/) 
+#### 怎样才能做到呢？请看 [配置 OmegaT 为 Programming-in-D 服务:Wiki](https://github.com/DlangRen/Programming-in-D-OmegaT/wiki/) 
 
 
 
