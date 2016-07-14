@@ -2579,6 +2579,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>KEYWORDS=programming in d tutorial strings solution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T100248Z" creationid="大处着手小处着眼" creationdate="20160714T100248Z">
+        <seg>KEYWORDS=D 语言 教程 strings solution</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Let's see this on a class that has various types of members:
 )</seg>
       </tuv>
