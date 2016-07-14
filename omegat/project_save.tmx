@@ -530,8 +530,8 @@ The goal is to store multiple grades per student.</seg>
       <tuv lang="EN-US">
         <seg>$(LI This program uses two indexes to make a slice:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T095340Z" creationid="大处着手小处着眼" creationdate="20160714T095340Z">
-        <seg>$(LI 为生成切片这段程序使用两个索引值：</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T095454Z" creationid="大处着手小处着眼" creationdate="20160714T095340Z">
+        <seg>$(LI 这段程序使用两个索引值来生成一个切片：</seg>
       </tuv>
     </tu>
     <tu>
@@ -2267,6 +2267,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>DESCRIPTION=Programming in D exercise solutions: strings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T095637Z" creationid="大处着手小处着眼" creationdate="20160714T095637Z">
+        <seg>DESCRIPTION=D语言编程习题解答：字符串</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>DESCRIPTION=The associative arrays of the d programming language.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160709T092656Z" creationid="Hipter" creationdate="20160709T092656Z">
@@ -2643,6 +2651,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160707T020705Z" creationid="Hipter" creationdate="20160707T020705Z">
         <seg>SUBTITLE=类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SUBTITLE=Strings Solution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T095608Z" creationid="大处着手小处着眼" creationdate="20160714T095608Z">
+        <seg>SUBTITLE=字符串 习题解答</seg>
       </tuv>
     </tu>
     <tu>
