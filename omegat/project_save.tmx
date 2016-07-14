@@ -2911,6 +2911,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We will see Phobos ranges in a later chapter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T094305Z" creationid="大处着手小处着眼" creationdate="20160714T094241Z">
+        <seg>在稍后的一章中我们将看到 Phobos ranges 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We will see exceptions in $(LINK2 /ders/d.en/exceptions.html, a later chapter).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160709T034341Z" creationid="Hipter" creationdate="20160708T081001Z">
@@ -2975,6 +2983,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160707T051126Z" creationid="Hipter" creationdate="20160707T012523Z">
         <seg>若没有编译错误，您可以闭着眼睛按教程来：
 )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You may find especially the Phobos ranges confusing at this point.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T094806Z" creationid="大处着手小处着眼" creationdate="20160714T094151Z">
+        <seg>在这一点上，你会发现 Phobos 的让人迷惑的 ranges 尤其明显。</seg>
       </tuv>
     </tu>
     <tu>
