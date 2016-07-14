@@ -108,6 +108,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$(H5 $(IX length, string) Potentially confusing length of strings)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T010012Z" creationid="大处着手小处着眼" creationdate="20160714T005946Z">
+        <seg>$(H5 $(IX length, string) 有可能让人困惑的字符串长度)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$(H5 $(IX readln) $(IX strip) $(C readln) and $(C strip), instead of $(C readf))</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T092224Z" creationid="Hipter" creationdate="20160711T092224Z">
@@ -528,6 +536,18 @@ The goal is to store multiple grades per student.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$(LI There is a $(C d) at the end of the literal $(STRING "résumé"d), specifying its type as an array of $(C dchar)s.)
+)
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T020544Z" creationid="大处着手小处着眼" creationdate="20160714T020544Z">
+        <seg>$(LI 有一个 $(C d) 在字面量 $(STRING "résumé"d) 的末尾，指定了它的类型是一个 $(C dchar) 型数组。)
+)
+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$(LI This program uses two indexes to make a slice:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T095454Z" creationid="大处着手小处着眼" creationdate="20160714T095340Z">
@@ -717,6 +737,18 @@ $(IX 终结与析构) 然而，不同于结构，在一个类对象的生命期�
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160707T151443Z" creationid="Hipter" creationdate="20160707T050655Z">
         <seg>$(P
 $(IX 终结与析构) 然而，不同于结构，在一个类对象的生命期结束时，类的析构函数并不执行。正如上面我们看到的，析构函数在一个垃圾回收周期内的未来某个时候执行。(通过这样的区分，更准确的说，类的析构函数应该叫 $(I 终结函数)) 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
+Although "résumé" contains six $(I letters), the length of the $(C string) is the number of UTF-8 code units that it contains:
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T013647Z" creationid="大处着手小处着眼" creationdate="20160714T012628Z">
+        <seg>$(P
+虽然 "résumé" 包含6个 $(I 字母)，但$(C 字符串)的长度是它包含的 UTF-8 编码单元的个数：
+)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1070,6 +1102,16 @@ If there is no other class variable that still provides access to the object tha
     <tu>
       <tuv lang="EN-US">
         <seg>$(P
+In any case, keep in mind that the use of $(C dchar[]) and $(C dstring) does not solve all of the problems of manipulating Unicode characters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T021458Z" creationid="大处着手小处着眼" creationdate="20160714T021458Z">
+        <seg>$(P
+无论如何，请记住使用 $(C dchar[]) 和 $(C dstring) 并不能解决所有的操作 Unicode 字符的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
 In the code above, $(C variable2) is being initialized by $(C variable1).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160706T021450Z" creationid="Hipter" creationdate="20160706T021450Z">
@@ -1149,6 +1191,22 @@ Other than the fact that $(C opAssign) cannot be overloaded for classes, operato
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160707T005026Z" creationid="Hipter" creationdate="20160707T005026Z">
         <seg>$(P
 虽然 $(C opAssign) 不能被类重载，但与结构一样，可以实现运算符重载。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
+Please note the two differences in the new code:
+)
+$(OL
+$(LI The type of the string is $(C dchar[]).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T020223Z" creationid="大处着手小处着眼" creationdate="20160714T020156Z">
+        <seg>$(P
+请注意新代码的两个不同：
+)
+$(OL
+$(LI 字符串的类型是 $(C dchar[])。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1526,6 +1584,28 @@ The table grows automatically with each association.</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>$(P
+The two 'e' characters do not replace the two 'é' characters; they replace single code units, resulting in an invalid UTF-8 encoding:
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T015145Z" creationid="大处着手小处着眼" creationdate="20160714T015145Z">
+        <seg>$(P
+两个 'e' 字符不能代替两个 'é' 字符；用单字节编码单元替换后，结果就是得到一个无效的 UTF-8 编码：
+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
+The type of the elements of string literals like $(STRING "hello") is $(C char) and each $(C char) value represents a UTF-8 code unit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T014126Z" creationid="大处着手小处着眼" creationdate="20160714T013933Z">
+        <seg>$(P
+像 $(STRING "hello") 这样的字符串字面量的元素类型是 $(C char)，并且每个 $(C char) 值对应一个 UTF-8 编码单元。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
 There are surprises even when reading strings from the terminal.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T094459Z" creationid="Hipter" creationdate="20160711T092623Z">
@@ -1644,6 +1724,16 @@ We have seen that single quotes are used to define character literals.</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>$(P
+We have seen that some Unicode characters are represented by more than one byte.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T011246Z" creationid="大处着手小处着眼" creationdate="20160714T011246Z">
+        <seg>$(P
+我们已经知道一些 Unicode 字符串由多个字节表示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
 We have used strings in many programs that we have seen so far.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T090616Z" creationid="Hipter" creationdate="20160711T090616Z">
@@ -1671,6 +1761,18 @@ We saw in the $(LINK2 /ders/d.en/arrays.html, Arrays chapter) that plain arrays 
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T151814Z" creationid="Hipter" creationdate="20160708T081001Z">
         <seg>$(P
 在 $(LINK2 /ders/d.cn/arrays.html, 数组) 一章中我们已经看到简单数组作为容器逐个存储元素，按索引访问它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
+When dealing with letters, symbols, and other Unicode characters directly, as in the code above, the correct type to use is $(C dchar):
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T020029Z" creationid="大处着手小处着眼" creationdate="20160714T015921Z">
+        <seg>$(P
+当直接处理字母、符号或其它 Unicode 字符的时候，比如在上面代码中，应该使用正确的类型 $(C dchar)：
+)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1915,6 +2017,20 @@ Just like with arrays, there can be only one value for each key.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$(SHELL
+Before: résumé
+After : re�sueé    $(SHELL_NOTE_WRONG INCORRECT)
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T015218Z" creationid="大处着手小处着眼" creationdate="20160714T015218Z">
+        <seg>$(SHELL
+Before: résumé
+After : re�sueé    $(SHELL_NOTE_WRONG 不正确)
+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$(SHELL_NOTE (Let's assume that Enter is pressed a second time here))
 )</seg>
       </tuv>
@@ -2135,6 +2251,16 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160707T034926Z" creationid="Hipter" creationdate="20160707T034511Z">
         <seg>$(C scope(failure)) 的好处是靠近它的表达式可以还原已写的另一个表达式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A problem that this may cause is when we try to replace a two-code-unit character with a single-code-unit character:
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T014415Z" creationid="大处着手小处着眼" creationdate="20160714T014341Z">
+        <seg>当我们试着用一个单字节字符替换一个双字节字符时问题就来了：
+)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2371,6 +2497,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T233623Z" creationid="Hipter" creationdate="20160709T090853Z">
         <seg>例如，我们假设存储学生“emre”的成绩 90，85，95 等等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, the character 'é' (the latin letter 'e' combined with an acute accent) is represented by Unicode encodings using at least two bytes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T011821Z" creationid="大处着手小处着眼" creationdate="20160714T011821Z">
+        <seg>例如，字符 'é' (拉丁字母 'e' 包含了一个扬音符) 由 Unicode 编码表示，至少用了两个字节。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2873,6 +3007,16 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160708T144154Z" creationid="Hipter" creationdate="20160708T081001Z">
         <seg>当 $(LINK2 /ders/d.cn/function_parameters.html, 传关联数组给函数) 时，这种区分具有重要意义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This fact is reflected in the $(C .length) property of strings:
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T012504Z" creationid="大处着手小处着眼" creationdate="20160714T012504Z">
+        <seg>这个事实反映在字符串的 $(C .length) property 上：
+)</seg>
       </tuv>
     </tu>
     <tu>
