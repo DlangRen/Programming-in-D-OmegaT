@@ -293,6 +293,16 @@ Another solution is to assign an empty array:</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>$(LI
+Many other functions may be chained as well:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T095132Z" creationid="大处着手小处着眼" creationdate="20160714T095132Z">
+        <seg>$(LI
+许多别的函数可以嵌套使用Many other functions may be chained as well:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(LI
 Since the initial value of an array is an empty array anyway, the following technique would achieve the same result:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T013753Z" creationid="Hipter" creationdate="20160711T013753Z">
@@ -514,6 +524,14 @@ The goal is to store multiple grades per student.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160707T020218Z" creationid="Hipter" creationdate="20160707T020218Z">
         <seg>$(LI 复制操作将增加一个与对象关联的变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(LI This program uses two indexes to make a slice:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T095340Z" creationid="大处着手小处着眼" creationdate="20160714T095340Z">
+        <seg>$(LI 为生成切片这段程序使用两个索引值：</seg>
       </tuv>
     </tu>
     <tu>
