@@ -273,6 +273,16 @@
     <tu>
       <tuv lang="EN-US">
         <seg>$(LI
+Although some of the functions in Phobos modules will be easy to use with strings, library documentations are usually terse compared to tutorials.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T093624Z" creationid="大处着手小处着眼" creationdate="20160714T093404Z">
+        <seg>$(LI
+对于字符串，虽然 Phobos 模块的一些函数易于使用，但库文档通常比教程简洁。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(LI
 Another solution is to assign an empty array:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T115803Z" creationid="Hipter" creationdate="20160711T012526Z">
