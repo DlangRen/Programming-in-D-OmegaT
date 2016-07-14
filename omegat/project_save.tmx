@@ -60,6 +60,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$(COZUM_BOLUMU Strings)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="ADR" changedate="20160714T092548Z" creationid="ADR" creationdate="20160714T092548Z">
+        <seg>$(COZUM_BOLUMU 字符串)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$(DERS_BOLUMU $(IX associative array) $(IX AA) Associative Arrays)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160708T085529Z" creationid="Hipter" creationdate="20160708T082836Z">
