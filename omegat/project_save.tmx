@@ -52,6 +52,16 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$(C ~) concatenates two strings and $(C ~=) appends to an existing string:
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T150446Z" creationid="大处着手小处着眼" creationdate="20160715T033130Z">
+        <seg>$(C ~) 串联两个字符串，$(C ~=) 附加到一个已存在的字符串上：
+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$(COZUM_BOLUMU Associative Arrays)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160709T101504Z" creationid="Hipter" creationdate="20160709T095142Z">
@@ -84,10 +94,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$(DERS_BOLUMU Strings)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160716T000617Z" creationid="大处着手小处着眼" creationdate="20160716T000617Z">
+        <seg>$(DERS_BOLUMU 字符串)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$(H5 $(IX &amp;quot;) Double quotes, not single quotes)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160712T075419Z" creationid="Hipter" creationdate="20160712T075419Z">
         <seg>$(H5 $(IX &amp;quot;) 双引号，非单引号)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(H5 $(IX concatenation, string) String concatenation)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T032440Z" creationid="大处着手小处着眼" creationdate="20160715T032440Z">
+        <seg>$(H5 $(IX concatenation, string) 字符串串联)</seg>
       </tuv>
     </tu>
     <tu>
@@ -112,6 +138,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T010012Z" creationid="大处着手小处着眼" creationdate="20160714T005946Z">
         <seg>$(H5 $(IX length, string) 有可能让人困惑的字符串长度)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(H5 $(IX literal, string) String literals)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T014642Z" creationid="大处着手小处着眼" creationdate="20160715T014642Z">
+        <seg>$(H5 $(IX literal, string) 字符串字面量)</seg>
       </tuv>
     </tu>
     <tu>
@@ -148,6 +182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$(H5 Comparing strings)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T033521Z" creationid="大处着手小处着眼" creationdate="20160715T033521Z">
+        <seg>$(H5 比较字符串)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$(H5 Definition)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160708T094803Z" creationid="Hipter" creationdate="20160708T094803Z">
@@ -168,6 +210,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160709T030542Z" creationid="Hipter" creationdate="20160709T030542Z">
         <seg>$(H5 初始化)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(H5 Lowercase and uppercase are different)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T035759Z" creationid="大处着手小处着眼" creationdate="20160715T035759Z">
+        <seg>$(H5 小写与大写不同)</seg>
       </tuv>
     </tu>
     <tu>
@@ -283,9 +333,9 @@
         <seg>$(LI
 Although some of the functions in Phobos modules will be easy to use with strings, library documentations are usually terse compared to tutorials.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T093624Z" creationid="大处着手小处着眼" creationdate="20160714T093404Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T151003Z" creationid="大处着手小处着眼" creationdate="20160714T093404Z">
         <seg>$(LI
-对于字符串，虽然 Phobos 模块的一些函数易于使用，但库文档通常比教程简洁。</seg>
+对于字符串，虽然 Phobos 模块的一些函数易于使用，但库文档通常比教程简短。</seg>
       </tuv>
     </tu>
     <tu>
@@ -303,9 +353,9 @@ Another solution is to assign an empty array:</seg>
         <seg>$(LI
 Many other functions may be chained as well:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T095132Z" creationid="大处着手小处着眼" creationdate="20160714T095132Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T151035Z" creationid="大处着手小处着眼" creationdate="20160714T095132Z">
         <seg>$(LI
-许多别的函数可以嵌套使用Many other functions may be chained as well:</seg>
+许多别的函数可以嵌套使用：</seg>
       </tuv>
     </tu>
     <tu>
@@ -675,6 +725,16 @@ $(I $(B 注：) 在上面的代码中，一般不这样直接访问成员。</se
     <tu>
       <tuv lang="EN-US">
         <seg>$(P
+$(I $(B Note:) Unicode does not define how the characters are ordered other than their Unicode codes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T033832Z" creationid="大处着手小处着眼" creationdate="20160715T033832Z">
+        <seg>$(P
+$(I $(B 注：)除了 Unicode 编码之外，Unicode 不定义字符排序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
 $(I $(B 注：) 在上面的代码中，一般不这样直接访问成员。若确实需要这样的语法，应该首选属性，这将在 $(LINK2 /ders/d.cn/property.html, 后面的章节) 中解释。)
 )</seg>
       </tuv>
@@ -742,12 +802,22 @@ $(IX 终结与析构) 然而，不同于结构，在一个类对象的生命期�
     <tu>
       <tuv lang="EN-US">
         <seg>$(P
+Additionally, as a consequence of their ASCII code values, all of the latin uppercase letters are sorted before all of the lowercase letters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T143655Z" creationid="大处着手小处着眼" creationdate="20160715T143655Z">
+        <seg>$(P
+另外，受 ASCII 编码值的影响，所有拉丁大写字母都排在小写字母的前面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
 Although "résumé" contains six $(I letters), the length of the $(C string) is the number of UTF-8 code units that it contains:
 )</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T013647Z" creationid="大处着手小处着眼" creationdate="20160714T012628Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160716T001021Z" creationid="大处着手小处着眼" creationdate="20160714T012628Z">
         <seg>$(P
-虽然 "résumé" 包含6个 $(I 字母)，但$(C 字符串)的长度是它包含的 UTF-8 编码单元的个数：
+虽然 "résumé" 包含6个$(I 字母)，但$(C 字符串)的长度是它包含的 UTF-8 编码单元的个数：
 )</seg>
       </tuv>
     </tu>
@@ -811,6 +881,16 @@ As an example, let's write the function above with a $(C scope(failure)) stateme
         <seg>$(P
 例如，让我们用 $(C scope(failure)) 语句写一下面的函数：
 )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
+As it is indicated in their documentation, the return types of $(C indexOf()) and $(C lastIndexOf()) are not $(C int) nor $(C size_t), but $(C ptrdiff_t).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T144120Z" creationid="大处着手小处着眼" creationdate="20160715T144120Z">
+        <seg>$(P
+由于它们的文档指出，$(C indexOf()) 和 $(C lastIndexOf()) 的返回类型即不是 $(C int) 也不是 $(C size_t)，而是 $(C ptrdiff_t)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -918,11 +998,51 @@ Assume that an associative array is used for storing student grades.</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>$(P
+Because Unicode adopts the letters of the basic Latin alphabet from the ASCII table, the strings that contain only the letters of the ASCII table will always be ordered correctly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T035824Z" creationid="大处着手小处着眼" creationdate="20160715T035730Z">
+        <seg>$(P
+由于 Unicode 采用来自于 ASCII 表的基本拉丁字母，只包含 ASCII 字母的字符串将会正确排序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
+Because all of the Unicode characters of "résumé" can be represented by a single $(C wchar) or $(C dchar), the last two lengths are equal to the number of characters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T032251Z" creationid="大处着手小处着眼" creationdate="20160715T031823Z">
+        <seg>$(P
+因为所有的“résumé”的 Unicode 字符都能用单个 $(C wchar) 或者 $(C dchar) 表示，所以最后两个长度与字符个数是一致的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
 Because classes are reference types, defining a new class variable as a copy of another makes two variables that provide access to the same object.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160706T012453Z" creationid="Hipter" creationdate="20160706T012143Z">
         <seg>$(P
 因为类是引用类型，定义一个新的类变量做为另一个副本，将产生两个访问同一对象的变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
+Because each character has a unique code, every letter variant is different from the others.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T151559Z" creationid="大处着手小处着眼" creationdate="20160715T143244Z">
+        <seg>$(P
+因为每个字母都有一个唯一的编码，每个字母变体都与其它的不同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
+Because strings are arrays (and as a corollary, $(I ranges)), the functions of the $(C std.array), $(C std.algorithm), and $(C std.range) modules are very useful with strings as well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T143825Z" creationid="大处着手小处着眼" creationdate="20160715T143825Z">
+        <seg>$(P
+因为字符串是数组(做个推演，$(I ranges))，$(C std.array)、$(C std.algorithm)、还有 $(C std.range) 模块中的函数对字符串也都非常有用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -940,9 +1060,9 @@ Being character arrays, strings can contain control characters like $(STRING '\n
         <seg>$(P
 Both $(C readf()) and $(C formattedRead()) $(I return) the number of items that they could parse and convert successfully.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Hipter" changedate="20160712T072948Z" creationid="Hipter" creationdate="20160712T035510Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T235738Z" creationid="Hipter" creationdate="20160712T035510Z">
         <seg>$(P
-$(C readf()) 和 $(C formattedRead()) 函数 都可以成功$(I 返回)解析及转换的项目个数。</seg>
+$(C readf()) 和 $(C formattedRead()) 函数 都可以成功$(I 返回) 解析及转换的项目个数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1122,6 +1242,18 @@ In the code above, $(C variable2) is being initialized by $(C variable1).</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>$(P
+It is possible to define variables with the $(C auto) keyword, which we will see in a later chapter:
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T144206Z" creationid="大处着手小处着眼" creationdate="20160715T144206Z">
+        <seg>$(P
+也可以使用 $(C auto) 关键字定义变量，这个我们将在后面的一章中看到：
+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
 Just like copying, assignment affects only the variables.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160706T024635Z" creationid="Hipter" creationdate="20160706T024635Z">
@@ -1283,6 +1415,16 @@ Since the objects of $(C myKing) and $(C yourKing) variables are different, the 
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160707T015100Z" creationid="Hipter" creationdate="20160707T015100Z">
         <seg>$(P
 由于 $(C myKing) 和 $(C yourKing) 变量来自不同的对象，$(C !is) 运算符返回 $(C true)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
+Since they are actually arrays, all of the array operations can be applied to strings as well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T033032Z" creationid="大处着手小处着眼" creationdate="20160715T033032Z">
+        <seg>$(P
+由于它们实际上是数组，所有数组的操作也都能应用到字符串上。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1528,12 +1670,36 @@ The name of a specific day can be accessed by its index in that array:
     <tu>
       <tuv lang="EN-US">
         <seg>$(P
+The optional character that is specified after string literals determines the type of the elements of the string:
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T031212Z" creationid="大处着手小处着眼" creationdate="20160715T020121Z">
+        <seg>$(P
+在字符串字面量之后指定的可选字符决定了字符串的元素类型：
+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
 The output indicates that the values 0 and 1 correspond to keys "Monday" and "Tuesday", respectively:
 )</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160709T091105Z" creationid="Hipter" creationdate="20160709T024828Z">
         <seg>$(P
 下面的输出表明了元素值 0 和 1 分别对应着键 “Monday” 和 “Tuesday”：
+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
+The output:
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T033423Z" creationid="大处着手小处着眼" creationdate="20160715T033423Z">
+        <seg>$(P
+输出：
 )</seg>
       </tuv>
     </tu>
@@ -1587,9 +1753,9 @@ The table grows automatically with each association.</seg>
 The two 'e' characters do not replace the two 'é' characters; they replace single code units, resulting in an invalid UTF-8 encoding:
 )</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T015145Z" creationid="大处着手小处着眼" creationdate="20160714T015145Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T150159Z" creationid="大处着手小处着眼" creationdate="20160714T015145Z">
         <seg>$(P
-两个 'e' 字符不能代替两个 'é' 字符；用单字节编码单元替换后，结果就是得到一个无效的 UTF-8 编码：
+两个‘e’字符不能代替两个‘é’字符；用单字节编码单元替换后，结果就是得到一个无效的 UTF-8 编码：
 )</seg>
       </tuv>
     </tu>
@@ -1734,6 +1900,16 @@ We have seen that some Unicode characters are represented by more than one byte.
     <tu>
       <tuv lang="EN-US">
         <seg>$(P
+We have used comparison operators $(C &lt;), $(C &gt;=), etc. with integer and floating point values before.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T034612Z" creationid="大处着手小处着眼" creationdate="20160715T034612Z">
+        <seg>$(P
+我们以前把比较运算符 $(C &lt;)，$(C &gt;=) 等等用于整型和浮点数值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
 We have used strings in many programs that we have seen so far.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T090616Z" creationid="Hipter" creationdate="20160711T090616Z">
@@ -1802,9 +1978,9 @@ When the input cannot be converted to $(C name) and $(C age), the program prints
         <seg>$(P
 When the type of $(C s) is $(C char[]), the type of the expression on the right-hand side of the assignment above is $(C char[]) as well.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Hipter" changedate="20160713T032929Z" creationid="Hipter" creationdate="20160713T032929Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160716T000923Z" creationid="Hipter" creationdate="20160713T032929Z">
         <seg>$(P
-当 $(C s) 的类型是 $(C char[])，上面右手侧赋值的表达式类型也是 $(C char[]) ，</seg>
+当 $(C s) 的类型是 $(C char[])，上面右手侧赋值的表达式类型也是 $(C char[])，</seg>
       </tuv>
     </tu>
     <tu>
@@ -1817,6 +1993,16 @@ When the variables provide access to the same object, $(C is) returns $(C true):
         <seg>$(P
 当变量提供对同一对象的访问时，$(C is) 返回 $(C true)：
 )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
+You may find the $(C indexOf()) and $(C lastIndexOf()) functions useful to get the two indexes needed to produce a slice.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T144100Z" creationid="大处着手小处着眼" creationdate="20160715T144100Z">
+        <seg>$(P
+你可能会发现 $(C indexOf()) 和 $(C lastIndexOf()) 函数对生成切片所需要的两个索引很有用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1998,6 +2184,16 @@ When the variables provide access to the same object, $(C is) returns $(C true):
     <tu>
       <tuv lang="EN-US">
         <seg>$(PROBLEM
+Browse the documentations of the $(C std.string), $(C std.array), $(C std.algorithm), and $(C std.range) modules.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T150719Z" creationid="大处着手小处着眼" creationdate="20160715T143846Z">
+        <seg>$(PROBLEM
+浏览 $(C std.string)、$(C std.array)、$(C std.algorithm) 以及 $(C std.range) 模块的文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(PROBLEM
 How can all of the key-value pairs of an associative array be removed other than calling $(C .clear)?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160709T094612Z" creationid="Hipter" creationdate="20160709T083844Z">
@@ -2013,6 +2209,26 @@ Just like with arrays, there can be only one value for each key.</seg>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160709T085009Z" creationid="Hipter" creationdate="20160709T085009Z">
         <seg>$(PROBLEM
 与数组一样，每个键有且仅有一个值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(PROBLEM
+Read a line from the input and print the part between the first and last 'e' letters of the line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T144015Z" creationid="大处着手小处着眼" creationdate="20160715T144015Z">
+        <seg>$(PROBLEM
+从输入中读取一行并打印该行的第一个和最后一个‘e’字母之间的部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(PROBLEM
+Write a program that makes use of the $(C ~) operator: The user enters the first name and the last name, all in lowercase letters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T143917Z" creationid="大处着手小处着眼" creationdate="20160715T143917Z">
+        <seg>$(PROBLEM
+写一个使用 $(C ~) 运算符的程序：让用户敲入英文名字和姓氏，都用小写字母。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2034,8 +2250,8 @@ After : re�sueé    $(SHELL_NOTE_WRONG 不正确)
         <seg>$(SHELL_NOTE (Let's assume that Enter is pressed a second time here))
 )</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Hipter" changedate="20160712T004651Z" creationid="Hipter" creationdate="20160712T004651Z">
-        <seg>$(SHELL_NOTE (让我们假设在这儿第二次按了Enter键))
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T145030Z" creationid="Hipter" creationdate="20160712T004651Z">
+        <seg>$(SHELL_NOTE (让我们假设在这儿第二次按了 Enter 键))
 )</seg>
       </tuv>
     </tu>
@@ -2043,8 +2259,8 @@ After : re�sueé    $(SHELL_NOTE_WRONG 不正确)
       <tuv lang="EN-US">
         <seg>$(SHELL_NOTE The input is not terminated although Enter has been pressed)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Hipter" changedate="20160712T004632Z" creationid="Hipter" creationdate="20160712T004632Z">
-        <seg>$(SHELL_NOTE 虽然按了Enter键，但输入没有中断)</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T144927Z" creationid="Hipter" creationdate="20160712T004632Z">
+        <seg>$(SHELL_NOTE 虽然按了 Enter 键，但输入没有中断)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2118,8 +2334,8 @@ $(LI $(C scope(exit))：表达式总是在退出作用域时被执行， 无论�
         <seg>(We will see D's $(I immutability) concept in later chapters.)
 )</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Hipter" changedate="20160712T082209Z" creationid="Hipter" creationdate="20160712T082117Z">
-        <seg>(在稍后的章节我们将看到 D的$(I 不可变性) 概念。)
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T145634Z" creationid="Hipter" creationdate="20160712T082117Z">
+        <seg>(在稍后的章节我们将看到 D 的$(I 不可变性) 概念。)
 )</seg>
       </tuv>
     </tu>
@@ -2215,6 +2431,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>// Concatenate:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T033356Z" creationid="大处着手小处着眼" creationdate="20160715T033356Z">
+        <seg>// 串联：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>// associates value 0 with key "Monday"</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160709T090946Z" creationid="Hipter" creationdate="20160708T145014Z">
@@ -2301,16 +2525,16 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       <tuv lang="EN-US">
         <seg>Arrays of these character types lead to three separate string types, some of which may have surprising outcomes in some string operations.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T092039Z" creationid="Hipter" creationdate="20160711T092039Z">
-        <seg>这些字符类型的数组导致三种独立的字符串类型， 其中一些可能会在一些字符串操作上有出人意料的结果。</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T144633Z" creationid="Hipter" creationdate="20160711T092039Z">
+        <seg>这些字符类型的数组导致三种独立的字符串类型，其中一些可能会在一些字符串操作上有出人意料的结果。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>As we have seen in the $(LINK2 /ders/d.en/characters.html, Characters chapter), D has three separate character types.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T091729Z" creationid="Hipter" creationdate="20160711T091315Z">
-        <seg>正如我们在 $(LINK2 /ders/d.cn/characters.html, 字符一章) 中看到的， D具有三种独立的字符类型。</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T235203Z" creationid="Hipter" creationdate="20160711T091315Z">
+        <seg>正如我们在 $(LINK2 /ders/d.cn/characters.html, 字符) 一章中看到的，D具有三种独立的字符类型。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2425,6 +2649,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>DESCRIPTION=The strings of the D programming language</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T144240Z" creationid="大处着手小处着眼" creationdate="20160715T144240Z">
+        <seg>DESCRIPTION=D语言的字符串</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Define an associative array that can store multiple grades per student.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160709T092617Z" creationid="Hipter" creationdate="20160709T092617Z">
@@ -2459,8 +2691,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       <tuv lang="EN-US">
         <seg>For example, $(C char[]) is a type of string.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T091203Z" creationid="Hipter" creationdate="20160711T091203Z">
-        <seg>例如，$(C char[]) 字符串类型。</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T144519Z" creationid="Hipter" creationdate="20160711T091203Z">
+        <seg>例如，$(C char[]) 是一个字符串类型。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2473,11 +2705,27 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, 'A' and 'a' are different letters, when directly comparing Unicode strings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T143527Z" creationid="大处着手小处着眼" creationdate="20160715T143527Z">
+        <seg>例如，当直接比较 Unicode 字符串时，‘A’和‘a’是不同的字母。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, 'B' comes before 'a'.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T143708Z" creationid="大处着手小处着眼" creationdate="20160715T143708Z">
+        <seg>例如，‘B’排在‘a’之前。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, as the $(C formattedRead()) call above expects to read $(I two) items (a $(C string) as name and an $(C int) as age), the following check ensures that it really is the case:
 )</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Hipter" changedate="20160712T075053Z" creationid="Hipter" creationdate="20160712T074138Z">
-        <seg>例如，像上面的 $(C formattedRead()) 函数期望去读$(I 两个)项目(一个 $(C string) 型 name 和一个 $(C int) 型 age)，下面的检查确定它真是这样：
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T235744Z" creationid="Hipter" creationdate="20160712T074138Z">
+        <seg>例如，像上面的 $(C formattedRead()) 函数期望去读$(I 两个) 项目(一个 $(C string) 型 name 和一个 $(C int) 型 age)，下面的检查确定它真是这样：
 )</seg>
       </tuv>
     </tu>
@@ -2503,8 +2751,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       <tuv lang="EN-US">
         <seg>For example, the character 'é' (the latin letter 'e' combined with an acute accent) is represented by Unicode encodings using at least two bytes.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T011821Z" creationid="大处着手小处着眼" creationdate="20160714T011821Z">
-        <seg>例如，字符 'é' (拉丁字母 'e' 包含了一个扬音符) 由 Unicode 编码表示，至少用了两个字节。</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T150017Z" creationid="大处着手小处着眼" creationdate="20160714T011821Z">
+        <seg>例如，字符‘é’ (拉丁字母‘e’包含了一个重音符) 由 Unicode 编码表示，至少用了两个字节。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2525,10 +2773,34 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, when the line is "this line has five words" the program should print "e has five".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T144021Z" creationid="大处着手小处着眼" creationdate="20160715T144021Z">
+        <seg>例如，若这行是“this line has five words”程序就应该打印出“e has five”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, when the strings are "ebru" and "domates" the program should print "Ebru&amp;nbsp;Domates".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T143945Z" creationid="大处着手小处着眼" creationdate="20160715T143945Z">
+        <seg>例如，字符串是“ebru”和“domates”，程序应该打印出“Ebru&amp;nbsp;Domates”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, when there are just two elements to store for keys 0 and 999, an associative array stores just two elements, not 1000 as a plain array has to.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T233433Z" creationid="Hipter" creationdate="20160708T094744Z">
         <seg>例如，对于键 0 和 999，当只有两个元素要存储时，关联数组就只存储两个元素，而不像简单数组那样必须 1000 个。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, if the user inputs the text "résumé" you and your program cannot assume that the string length will be 6 even for $(C dchar) strings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T005840Z" creationid="大处着手小处着眼" creationdate="20160715T005840Z">
+        <seg>例如，如果用户输入文本“résumé”，即使是 $(C dchar) 字符串，你和你的程序并不能确保字符串的长度会是6。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2538,6 +2810,16 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T132325Z" creationid="Hipter" creationdate="20160709T030446Z">
         <seg>因而，给一个存在的键赋值，表不增长，而现有键所对应的值会发生变化：
+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For that reason, you may get results that don't match your expectations below.)
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T034256Z" creationid="大处着手小处着眼" creationdate="20160715T034256Z">
+        <seg>因此，下面的输出结果不是你所期望的。)
 )</seg>
       </tuv>
     </tu>
@@ -2555,8 +2837,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       <tuv lang="EN-US">
         <seg>Further, because there is no way to tell $(C readf()) how many characters to read, it continues to read until the end of the entire input.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Hipter" changedate="20160712T003853Z" creationid="Hipter" creationdate="20160711T095339Z">
-        <seg>另外，因为没有办法告诉 $(C readf()) 要读取多少字符， 它持续读，直到整个输入结束。</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T144815Z" creationid="Hipter" creationdate="20160711T095339Z">
+        <seg>另外，因为没有办法告诉 $(C readf()) 要读取多少字符，它持续读，直到整个输入结束。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2631,8 +2913,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       <tuv lang="EN-US">
         <seg>In that case it $(I returns) the line that it has just read.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Hipter" changedate="20160712T021527Z" creationid="Hipter" creationdate="20160712T021418Z">
-        <seg>在这种情况下它$(I 返回)刚刚读入的行。</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T235625Z" creationid="Hipter" creationdate="20160712T021418Z">
+        <seg>在这种情况下它$(I 返回) 刚刚读入的行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2651,6 +2933,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160712T015633Z" creationid="Hipter" creationdate="20160712T015506Z">
         <seg>不同的是没有 $(STRING " %s") 格式字符串并且不需要 $(C &amp;) 运算符：
 )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It might be greater if e.g. at least one of the 'é' characters is not encoded as a single code point but as the combination of an 'e' and a combining accute accent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T031706Z" creationid="大处着手小处着眼" creationdate="20160715T013340Z">
+        <seg>这样可能就比较好，比如如果至少其中一个‘é’字符没有做为单个编码点编码，而是一个‘e’与一个重音符的组合。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2697,6 +2987,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>KEYWORDS=d programming language tutorial book string</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T144252Z" creationid="大处着手小处着眼" creationdate="20160715T144252Z">
+        <seg>KEYWORDS=D 语言教程 string</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>KEYWORDS=d programming lesson book tutorial class</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160707T050241Z" creationid="Hipter" creationdate="20160707T020932Z">
@@ -2715,8 +3013,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       <tuv lang="EN-US">
         <seg>KEYWORDS=programming in d tutorial strings solution</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T100248Z" creationid="大处着手小处着眼" creationdate="20160714T100248Z">
-        <seg>KEYWORDS=D 语言 教程 strings solution</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T151258Z" creationid="大处着手小处着眼" creationdate="20160714T100248Z">
+        <seg>KEYWORDS=D 语言教程 字符串 习题解答</seg>
       </tuv>
     </tu>
     <tu>
@@ -2765,6 +3063,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Produce the full name that contains the proper capitalization of the first and last names.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T143933Z" creationid="大处着手小处着眼" creationdate="20160715T143933Z">
+        <seg>生成一个姓名首字母大写的全名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>S      o;  // assume S is a struct type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160706T022841Z" creationid="Hipter" creationdate="20160706T022841Z">
@@ -2793,6 +3099,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160707T020705Z" creationid="Hipter" creationdate="20160707T020705Z">
         <seg>SUBTITLE=类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SUBTITLE=Strings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T144233Z" creationid="大处着手小处着眼" creationdate="20160715T144233Z">
+        <seg>SUBTITLE=字符串</seg>
       </tuv>
     </tu>
     <tu>
@@ -2869,6 +3183,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The $(C icmp()) function of the $(C std.string) module can be used when strings need to be compared regardless of lowercase and uppercase.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T143727Z" creationid="大处着手小处着眼" creationdate="20160715T143727Z">
+        <seg>无论小写大写，$(C std.string) 模块中的 $(C icmp()) 函数可用于字符串比较。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The $(C king) variable does not have a $(C shape) member, the anonymous object does.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160707T004408Z" creationid="Hipter" creationdate="20160707T004408Z">
@@ -2909,6 +3231,16 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The concepts of $(I less) and $(I greater) are replaced with $(I before) and $(I after) in this hypothetical alphabet:
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160716T001154Z" creationid="大处着手小处着眼" creationdate="20160715T035221Z">
+        <seg>在这个假设的字母表中，$(I 更少) 和$(I 更多) 的概念就被$(I 之前) 和$(I 之后) 代替：
+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default value is specified as the second parameter of $(C .get()):
 )</seg>
       </tuv>
@@ -2941,6 +3273,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T014729Z" creationid="Hipter" creationdate="20160711T014729Z">
         <seg>成绩能附加到存储在关联数组中的动态数组上：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The same operators can be used with strings as well, but with a different meaning: strings are ordered $(I lexicographically).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160716T000051Z" creationid="大处着手小处着眼" creationdate="20160715T034841Z">
+        <seg>同样的操作也能用于字符串，但含义不同：字符串按$(I 字典顺序) 排序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3055,6 +3395,22 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This ordering takes each character's Unicode code to be its place in a hypothetical grand Unicode alphabet.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T035023Z" creationid="大处着手小处着眼" creationdate="20160715T035023Z">
+        <seg>这种排序需要在一个假设的大字母表中让每个字符的 Unicode 编码找到它的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To avoid dealing with this and many other Unicode issues, consider using a Unicode-aware text manipulation library in your programs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T014621Z" creationid="大处着手小处着眼" creationdate="20160715T014621Z">
+        <seg>为避免处理这种以及好多其它的 Unicode 议题，在你的程序里就要考虑使用一个支持 Unicode 的文本处理库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To be compatible with arrays, this function may be named $(C dup()).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160706T022458Z" creationid="Hipter" creationdate="20160706T022458Z">
@@ -3147,8 +3503,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       <tuv lang="EN-US">
         <seg>When reading strings from the input, the control character that corresponds to the Enter key that is pressed at the end of the input becomes a part of the string as well.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T094720Z" creationid="Hipter" creationdate="20160711T092900Z">
-        <seg>当从输入中读取字符串，输入结束时按的Enter键对应的控制字符将变成字符串的一部分。</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T144811Z" creationid="Hipter" creationdate="20160711T092900Z">
+        <seg>当从输入中读取字符串，输入结束时按的 Enter 键对应的控制字符将变成字符串的一部分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3173,10 +3529,28 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can see the functions of this module at $(LINK2 http://dlang.org/phobos/std_string.html, its online documentation).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160716T000152Z" creationid="大处着手小处着眼" creationdate="20160715T143802Z">
+        <seg>在$(LINK2 http://dlang.org/phobos/std_string.html, 它的联机文档) 中你可以看到这个模块的各个函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You may find especially the Phobos ranges confusing at this point.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T094806Z" creationid="大处着手小处着眼" creationdate="20160714T094151Z">
         <seg>在这一点上，你会发现 Phobos 的让人迷惑的 ranges 尤其明显。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You may have to define variables of that exact type:
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T144129Z" creationid="大处着手小处着眼" creationdate="20160715T144129Z">
+        <seg>您可能就需要定义确切的变量类型：
+)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3217,6 +3591,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160713T160846Z" creationid="Hipter" creationdate="20160713T160846Z">
         <seg>string result = (s ~ '.')$(HILITE .idup);   // ← 现在可以编译
 ---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>string s = "résumé"c;   // same as "résumé"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T031247Z" creationid="大处着手小处着眼" creationdate="20160715T031247Z">
+        <seg>string s = "résumé"c;   // 与“résumé”一样</seg>
       </tuv>
     </tu>
     <tu>
