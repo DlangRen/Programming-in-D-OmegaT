@@ -3455,8 +3455,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       <tuv lang="EN-US">
         <seg>We will see Phobos ranges in a later chapter.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T094305Z" creationid="大处着手小处着眼" creationdate="20160714T094241Z">
-        <seg>在稍后的一章中我们将看到 Phobos ranges 。</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160716T090310Z" creationid="大处着手小处着眼" creationdate="20160714T094241Z">
+        <seg>在稍后的一章中我们将看到 Phobos 的 ranges 。</seg>
       </tuv>
     </tu>
     <tu>
