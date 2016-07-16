@@ -168,8 +168,8 @@
       <tuv lang="EN-US">
         <seg>$(H5 $(IX string) $(IX wstring) $(IX dstring) $(IX char[]) $(IX wchar[]) $(IX dchar[]) $(IX immutable) $(C string), $(C wstring), and $(C dstring) are immutable)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Hipter" changedate="20160712T080445Z" creationid="Hipter" creationdate="20160712T080114Z">
-        <seg>$(H5 $(IX string) $(IX wstring) $(IX dstring) $(IX char[]) $(IX wchar[]) $(IX dchar[]) $(IX immutable) $(C string)，$(C wstring)，和 $(C dstring) 是不可变的)</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160716T083018Z" creationid="Hipter" creationdate="20160712T080114Z">
+        <seg>$(H5 $(IX string) $(IX wstring) $(IX dstring) $(IX char[]) $(IX wchar[]) $(IX dchar[]) $(IX immutable) $(C string)、$(C wstring) 和 $(C dstring) 是不可变的)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1040,9 +1040,9 @@ Because each character has a unique code, every letter variant is different from
         <seg>$(P
 Because strings are arrays (and as a corollary, $(I ranges)), the functions of the $(C std.array), $(C std.algorithm), and $(C std.range) modules are very useful with strings as well.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T143825Z" creationid="大处着手小处着眼" creationdate="20160715T143825Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160716T083103Z" creationid="大处着手小处着眼" creationdate="20160715T143825Z">
         <seg>$(P
-因为字符串是数组(做个推演，$(I ranges))，$(C std.array)、$(C std.algorithm)、还有 $(C std.range) 模块中的函数对字符串也都非常有用。</seg>
+因为字符串是数组(做个推演，$(I ranges))，$(C std.array)、$(C std.algorithm) 和 $(C std.range) 模块中的函数对字符串也都非常有用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1784,9 +1784,9 @@ There are surprises even when reading strings from the terminal.</seg>
         <seg>$(P
 There are three $(I aliases) of the $(I immutable) versions of those types: $(C string), $(C wstring), and $(C dstring).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Hipter" changedate="20160712T081640Z" creationid="Hipter" creationdate="20160712T081640Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160716T082950Z" creationid="Hipter" creationdate="20160712T081640Z">
         <seg>$(P
-这些类型的 $(I immutable) 版本有三个$(I 别名)：$(C string)，$(C wstring)，和 $(C dstring)。</seg>
+这些类型的 $(I immutable) 版本有三个$(I 别名)：$(C string)、$(C wstring) 和 $(C dstring)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1794,9 +1794,9 @@ There are three $(I aliases) of the $(I immutable) versions of those types: $(C 
         <seg>$(P
 There are three string types that correspond to the three character types: $(C char[]), $(C wchar[]), and $(C dchar[]).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Hipter" changedate="20160712T080510Z" creationid="Hipter" creationdate="20160712T080418Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160716T082957Z" creationid="Hipter" creationdate="20160712T080418Z">
         <seg>$(P
-三种字符串类型对应着三种字符类型：$(C char[])，$(C wchar[])，和 $(C dchar[])。</seg>
+三种字符串类型对应着三种字符类型：$(C char[])、$(C wchar[]) 和 $(C dchar[])。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2186,9 +2186,9 @@ You may find the $(C indexOf()) and $(C lastIndexOf()) functions useful to get t
         <seg>$(PROBLEM
 Browse the documentations of the $(C std.string), $(C std.array), $(C std.algorithm), and $(C std.range) modules.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T150719Z" creationid="大处着手小处着眼" creationdate="20160715T143846Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160716T083116Z" creationid="大处着手小处着眼" creationdate="20160715T143846Z">
         <seg>$(PROBLEM
-浏览 $(C std.string)、$(C std.array)、$(C std.algorithm) 以及 $(C std.range) 模块的文档。</seg>
+浏览 $(C std.string)、$(C std.array)、$(C std.algorithm) 和 $(C std.range) 模块的文档。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2939,8 +2939,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，代码编译时，它会访问�
       <tuv lang="EN-US">
         <seg>It might be greater if e.g. at least one of the 'é' characters is not encoded as a single code point but as the combination of an 'e' and a combining accute accent.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T031706Z" creationid="大处着手小处着眼" creationdate="20160715T013340Z">
-        <seg>这样可能就比较好，比如如果至少其中一个‘é’字符没有做为单个编码点编码，而是一个‘e’与一个重音符的组合。</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160716T090213Z" creationid="大处着手小处着眼" creationdate="20160715T013340Z">
+        <seg>若这样可能就比较好：如果至少其中一个‘é’字符没有做为单个编码点编码，而是一个‘e’与一个重音符的组合。</seg>
       </tuv>
     </tu>
     <tu>
