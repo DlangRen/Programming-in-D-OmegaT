@@ -152,8 +152,8 @@
       <tuv lang="EN-US">
         <seg>$(H5 $(IX readln) $(IX strip) $(C readln) and $(C strip), instead of $(C readf))</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T135154Z" creationid="Hipter" creationdate="20160711T092224Z">
-        <seg>$(H5 $(IX readln) $(IX strip) $(C readln) 和 $(C strip)，可以代替 $(C readf))</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T155808Z" creationid="Hipter" creationdate="20160711T092224Z">
+        <seg>$(H5 $(IX readln) $(IX strip) 使用 $(C readln) 和 $(C strip)，而不是 $(C readf))</seg>
       </tuv>
     </tu>
     <tu>
