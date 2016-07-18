@@ -120,8 +120,8 @@
       <tuv lang="EN-US">
         <seg>$(H5 $(IX formattedRead) $(C formattedRead) for parsing strings)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T142001Z" creationid="Hipter" creationdate="20160712T022848Z">
-        <seg>$(H5 $(IX formattedRead) 可以解析字符串的 $(C formattedRead) 函数)</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T160043Z" creationid="Hipter" creationdate="20160712T022848Z">
+        <seg>$(H5 $(IX formattedRead) 用 $(C formattedRead) 函数来解析字符串)</seg>
       </tuv>
     </tu>
     <tu>
