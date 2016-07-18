@@ -2734,8 +2734,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
         <seg>For example, as the $(C formattedRead()) call above expects to read $(I two) items (a $(C string) as name and an $(C int) as age), the following check ensures that it really is the case:
 )</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T144611Z" creationid="Hipter" creationdate="20160712T074138Z">
-        <seg>例如，像上面的 $(C formattedRead()) 函数期望去读$(I 两) 项(一个 $(C string) 型 name 和一个 $(C int) 型 age)，下面的检查确定它真是这样：
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T160144Z" creationid="Hipter" creationdate="20160712T074138Z">
+        <seg>例如，像上面的 $(C formattedRead()) 函数期望去读$(I 两个) 项目(一个 $(C string) 型 name 和一个 $(C int) 型 age)，下面的检查确定它真是这样：
 )</seg>
       </tuv>
     </tu>
