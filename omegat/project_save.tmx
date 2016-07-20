@@ -35,8 +35,8 @@
         <seg>$(C readf()) continues to wait for more characters to add to the string:
 )</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T135256Z" creationid="Hipter" creationdate="20160712T004229Z">
-        <seg>$(C readf()) 继续等待新输入的字符添加以到字符串：
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T072239Z" creationid="Hipter" creationdate="20160712T004229Z">
+        <seg>$(C readf()) 继续等待新输入的字符以添加到字符串：
 )</seg>
       </tuv>
     </tu>
@@ -114,6 +114,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T153034Z" creationid="大处着手小处着眼" creationdate="20160715T032440Z">
         <seg>$(H5 $(IX concatenation, string) 字符串连接)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(H5 $(IX container) $(IX element) Containers and elements)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T033618Z" creationid="大处着手小处着眼" creationdate="20160720T033618Z">
+        <seg>$(H5 $(IX container) $(IX element) 容器和元素)</seg>
       </tuv>
     </tu>
     <tu>
@@ -320,6 +328,16 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$(I type_name)[$(I value_count)] $(I variable_name);
+---</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T032737Z" creationid="大处着手小处着眼" creationdate="20160720T032737Z">
+        <seg>$(I 类型名称)[$(I 值的个数)] $(I 变量名称);
+---</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$(I value_type)[$(I key_type)] $(I associative_array_name);
 ---</seg>
       </tuv>
@@ -333,9 +351,9 @@
         <seg>$(LI
 Although some of the functions in Phobos modules will be easy to use with strings, library documentations are usually terse compared to tutorials.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T133522Z" creationid="大处着手小处着眼" creationdate="20160714T093404Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T070344Z" creationid="大处着手小处着眼" creationdate="20160714T093404Z">
         <seg>$(LI
-尽管 Phobos 模块的一些函数易于处理字符串，但库文档通常比教程简短。</seg>
+尽管 Phobos 模块中的一些函数易于处理字符串，但库文档通常比教程简短。</seg>
       </tuv>
     </tu>
     <tu>
@@ -791,12 +809,34 @@ $(IX final) 由于可重写的成员函数有一个运行时性能消耗，在�
     <tu>
       <tuv lang="EN-US">
         <seg>$(P
+$(IX scalar) That definition can be read as $(I 5 double values).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T031201Z" creationid="大处着手小处着眼" creationdate="20160720T030622Z">
+        <seg>$(P
+$(IX scalar（标量）) 这个定义可以理解为 $(I 5 个 double 值)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
 $(IX 终结与析构) 然而，不同于结构，在一个类对象的生命期结束时，类的析构函数并不执行。正如上面我们看到的，析构函数在一个垃圾回收周期内的未来某个时候执行。(通过这样的区分，更准确的说，类析构函数应该叫 $(I 终结函数)) 。
 )</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160707T151443Z" creationid="Hipter" creationdate="20160707T050655Z">
         <seg>$(P
 $(IX 终结与析构) 然而，不同于结构，在一个类对象的生命期结束时，类的析构函数并不执行。正如上面我们看到的，析构函数在一个垃圾回收周期内的未来某个时候执行。(通过这样的区分，更准确的说，类的析构函数应该叫 $(I 终结函数)) 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
+Accordingly, the equivalent of the five separate variables above can be defined as an array of five values using the following syntax:
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T025431Z" creationid="大处着手小处着眼" creationdate="20160720T025022Z">
+        <seg>$(P
+因此，上面的五个独立的变量可以等效的使用下面的语法定义为含五个值的数组：
+)</seg>
       </tuv>
     </tu>
     <tu>
@@ -859,6 +899,16 @@ Another difference from structs is that some member functions are automatically 
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160707T012709Z" creationid="Hipter" creationdate="20160707T012709Z">
         <seg>$(P
 与结构不同的是一些成员函数自动继承自 $(C Object) 类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
+Arrays are useful in such cases: the array feature allows us to define a single variable that stores multiple values together.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T022057Z" creationid="大处着手小处着眼" creationdate="20160720T021831Z">
+        <seg>$(P
+数组在这种情况下是有用的：数组功能允许我们定义一个把多个值存储到一起的单个变量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1060,9 +1110,9 @@ Being character arrays, strings can contain control characters like $(STRING '\n
         <seg>$(P
 Both $(C readf()) and $(C formattedRead()) $(I return) the number of items that they could parse and convert successfully.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T143159Z" creationid="Hipter" creationdate="20160712T035510Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T063405Z" creationid="Hipter" creationdate="20160712T035510Z">
         <seg>$(P
-$(C readf()) 和 $(C formattedRead()) 函数 都可以$(I 返回) 成功解析及转换的项目个数。</seg>
+$(C readf()) 和 $(C formattedRead()) 函数 都可以$(I 返回)成功解析及转换的项目个数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1227,6 +1277,18 @@ In any case, keep in mind that the use of $(C dchar[]) and $(C dstring) does not
       <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T021458Z" creationid="大处着手小处着眼" creationdate="20160714T021458Z">
         <seg>$(P
 无论如何，请记住使用 $(C dchar[]) 和 $(C dstring) 并不能解决所有的操作 Unicode 字符的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
+In summary, the definition of an array variable consists of the type of the values, the number of values, and the name of the variable that refers to the array of values:
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T032617Z" creationid="大处着手小处着眼" creationdate="20160720T031809Z">
+        <seg>$(P
+总之，数组变量的定义包括值的类型、 值的个数和涉及数组值的变量名称：
+)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1536,9 +1598,9 @@ $(C scope) 语句与 $(C catch) 和 $(C finally) 有相似功能，但在许多�
         <seg>$(P
 The $(C strip()) expression above returns a new string that does not contain the trailing control characters.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T143358Z" creationid="Hipter" creationdate="20160712T020830Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160719T150826Z" creationid="Hipter" creationdate="20160712T020830Z">
         <seg>$(P
-上面的 $(C strip()) 表达式返回一个不包含尾部控制符的新字符串。</seg>
+上面的 $(C strip()) 表达式返回一个不包含尾随控制符的新字符串。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1574,6 +1636,16 @@ The behavior of assignment cannot be changed for classes.</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>$(P
+The definition of array variables is very similar to the definition of normal variables.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T022547Z" creationid="大处着手小处着眼" creationdate="20160720T022547Z">
+        <seg>$(P
+数组变量的定义与正常变量的定义非常相似。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
 The exclamation mark appears after those characters instead of being printed right after the name.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T135758Z" creationid="Hipter" creationdate="20160712T015039Z">
@@ -1589,6 +1661,16 @@ The fact that plain arrays provide access to their values through index numbers 
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T023126Z" creationid="Hipter" creationdate="20160708T084434Z">
         <seg>$(P
 事实上简单数组通过索引访问值可以被描述为索引与值的$(I 关联) 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
+The first line above is the definition of a variable which stores a single value, just like the variables that we have defined so far.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T023154Z" creationid="大处着手小处着眼" creationdate="20160720T023154Z">
+        <seg>$(P
+上面的第一行定义了一个存储单个值的变量，就像我们以前定义过的变量那样。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1772,6 +1854,16 @@ The type of the elements of string literals like $(STRING "hello") is $(C char) 
     <tu>
       <tuv lang="EN-US">
         <seg>$(P
+The type of the values can also be a user-defined type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T032844Z" creationid="大处着手小处着眼" creationdate="20160720T032844Z">
+        <seg>$(P
+值的类型也可以是用户定义的类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
 There are surprises even when reading strings from the terminal.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T094459Z" creationid="Hipter" creationdate="20160711T092623Z">
@@ -1794,9 +1886,9 @@ There are three $(I aliases) of the $(I immutable) versions of those types: $(C 
         <seg>$(P
 There are three string types that correspond to the three character types: $(C char[]), $(C wchar[]), and $(C dchar[]).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T145346Z" creationid="Hipter" creationdate="20160712T080418Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160719T145013Z" creationid="Hipter" creationdate="20160712T080418Z">
         <seg>$(P
-对应着三种字符类型，存在着三种字符串类型：$(C char[])、$(C wchar[]) 和 $(C dchar[])。</seg>
+对应着三种字符类型，分别存在着三种字符串类型：$(C char[])、$(C wchar[]) 和 $(C dchar[])。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1817,6 +1909,26 @@ These operators operate on class variables.</seg>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160707T013802Z" creationid="Hipter" creationdate="20160707T013802Z">
         <seg>$(P
 这些运算符应用在类变量上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
+This chapter covers only some of the features of arrays.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T022235Z" creationid="大处着手小处着眼" creationdate="20160720T022235Z">
+        <seg>$(P
+本章仅涉及数组的部分功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$(P
+This method of defining variables individually does not scale to cases where even more variables are needed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T020639Z" creationid="大处着手小处着眼" creationdate="20160720T020639Z">
+        <seg>$(P
+这种定义个别变量的方法不能扩展到需要更多变量的情况下。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1882,9 +1994,9 @@ We can make the following observations about the use of these blocks:
         <seg>$(P
 We have defined five variables in one of the exercises of the last chapter, and used them in certain calculations.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160716T144940Z" creationid="大处着手小处着眼" creationdate="20160716T144940Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160719T095946Z" creationid="大处着手小处着眼" creationdate="20160716T144940Z">
         <seg>$(P
-在上一章的We have defined five variables in one of the exercises of the last chapter, and used them in certain calculations.</seg>
+在上一章的一个练习中我们定义过五个变量，并用它们做过特定计算。.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2344,8 +2456,18 @@ $(LI $(C scope(exit))：表达式总是在退出作用域时被执行， 无论�
         <seg>(We will see D's $(I immutability) concept in later chapters.)
 )</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T145634Z" creationid="Hipter" creationdate="20160712T082117Z">
-        <seg>(在稍后的章节我们将看到 D 的$(I 不可变性) 概念。)
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T063441Z" creationid="Hipter" creationdate="20160712T082117Z">
+        <seg>(在稍后的章节我们将看到 D 的$(I 不可变性)概念。)
+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(We will see user-defined types later.) For example:
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T032924Z" creationid="大处着手小处着眼" creationdate="20160720T032924Z">
+        <seg>（我们将在后面看到用户定义类型。）例如：
 )</seg>
       </tuv>
     </tu>
@@ -2441,10 +2563,50 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>//   false: overcast</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T033314Z" creationid="大处着手小处着眼" creationdate="20160720T033314Z">
+        <seg>//   false：阴天</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>//   true : sunny</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T033338Z" creationid="大处着手小处着眼" creationdate="20160720T033338Z">
+        <seg>//   true ：晴天</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>// An array that holds the weather information of all</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T033133Z" creationid="大处着手小处着眼" creationdate="20160720T033122Z">
+        <seg>// 保存所有城市的气象信息的数组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>// An array that holds the weights of a hundred boxes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T033502Z" creationid="大处着手小处着眼" creationdate="20160720T033502Z">
+        <seg>// 保存一百个箱子重量的数组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>// Concatenate:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T153500Z" creationid="大处着手小处着眼" creationdate="20160715T033356Z">
         <seg>// 连接：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>// Information about the students of a school</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T033532Z" creationid="大处着手小处着眼" creationdate="20160720T033532Z">
+        <seg>// 有关学校学生的信息</seg>
       </tuv>
     </tu>
     <tu>
@@ -2461,6 +2623,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160709T090956Z" creationid="Hipter" creationdate="20160708T145024Z">
         <seg>// 关联值 1 与 键 “Tuesday”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>// cities.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T033142Z" creationid="大处着手小处着眼" creationdate="20160720T033142Z">
+        <seg>// 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2511,6 +2681,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160706T010501Z" creationid="Hipter" creationdate="20160706T010501Z">
         <seg>虽然语法上看起来是在类 $(I 变量) 上执行，但实际上调度了一个类 $(I object)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Although simple, arrays are the most common data structure used to store a collection of values.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T022207Z" creationid="大处着手小处着眼" creationdate="20160720T022155Z">
+        <seg>虽然简单，但数组是用于存储值的集合中最常见的数据结构。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2734,8 +2912,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
         <seg>For example, as the $(C formattedRead()) call above expects to read $(I two) items (a $(C string) as name and an $(C int) as age), the following check ensures that it really is the case:
 )</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T160144Z" creationid="Hipter" creationdate="20160712T074138Z">
-        <seg>例如，像上面的 $(C formattedRead()) 函数期望去读$(I 两个) 项目(一个 $(C string) 型 name 和一个 $(C int) 型 age)，下面的检查确定它真是这样：
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T063415Z" creationid="Hipter" creationdate="20160712T074138Z">
+        <seg>例如，像上面的 $(C formattedRead()) 函数期望去读$(I 两个)项目(一个 $(C string) 型 name 和一个 $(C int) 型 age)，下面的检查确定它真是这样：
 )</seg>
       </tuv>
     </tu>
@@ -2861,6 +3039,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here, the bool values may mean</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T033302Z" creationid="大处着手小处着眼" creationdate="20160720T033302Z">
+        <seg>在这里，bool 值可能意味着</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, the grades cannot be inserted as in the following code because each grade would overwrite the previous one:
 )</seg>
       </tuv>
@@ -2877,6 +3063,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
       <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T135535Z" creationid="Hipter" creationdate="20160712T014616Z">
         <seg>如果用户最后这样结束输入，我们看到换行符已作为字符串的一部分被读取：
 )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Imagine needing a thousand values; it is almost impossible to define a thousand variables from $(C value_1) to $(C value_1000).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T021233Z" creationid="大处着手小处着眼" creationdate="20160720T021233Z">
+        <seg>想象一下，需要一千个值；定义从 $(C value_1) 到 $(C value_1000) 一千个变量，这几乎是不可能的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2913,6 +3107,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In other words, it stores an array of ten integer values.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T024436Z" creationid="大处着手小处着眼" creationdate="20160720T023707Z">
+        <seg>换句话说，它是一个可存储十个整数值的数组。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In such cases, the $(C .idup) property can be used to produce an immutable $(C string) variable from a mutable $(C char[]) variable.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T151939Z" creationid="Hipter" creationdate="20160713T030418Z">
@@ -2923,8 +3125,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
       <tuv lang="EN-US">
         <seg>In that case it $(I returns) the line that it has just read.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T235625Z" creationid="Hipter" creationdate="20160712T021418Z">
-        <seg>在这种情况下它$(I 返回) 刚刚读入的行。</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T063005Z" creationid="Hipter" creationdate="20160712T021418Z">
+        <seg>在这种情况下它$(I 返回)刚刚读入的行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3045,6 +3247,22 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160707T025251Z" creationid="Hipter" creationdate="20160707T025035Z">
         <seg>像 $(C finally)，下面三个不同的 $(C scope) 语句就是关于离开作用域时应执行的表达式：
 )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>More features will be introduced later in $(LINK2 /ders/d.en/slices.html, the Slices and Other Array Features chapter).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T022422Z" creationid="大处着手小处着眼" creationdate="20160720T022422Z">
+        <seg>更多功能将在后面 $(LINK2 /ders/d.en/slices.html, 切片和别的数组功能) 一章中介绍。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that I have chosen the name of the array variable as plural to avoid confusing it with a single-valued variable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T030859Z" creationid="大处着手小处着眼" creationdate="20160720T030859Z">
+        <seg>请注意，我选择了数组变量的名字为复数，以避免它与单值变量混淆。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3244,8 +3462,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
         <seg>The concepts of $(I less) and $(I greater) are replaced with $(I before) and $(I after) in this hypothetical alphabet:
 )</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160716T001154Z" creationid="大处着手小处着眼" creationdate="20160715T035221Z">
-        <seg>在这个假设的字母表中，$(I 更少) 和$(I 更多) 的概念就被$(I 之前) 和$(I 之后) 代替：
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T063636Z" creationid="大处着手小处着眼" creationdate="20160715T035221Z">
+        <seg>在这个假设的字母表中，$(I 更少)和$(I 更多)的概念就被$(I 之前)和$(I 之后)代替：
 )</seg>
       </tuv>
     </tu>
@@ -3256,6 +3474,16 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160709T042602Z" creationid="Hipter" creationdate="20160709T042602Z">
         <seg>默认值被指定为 $(C .get()) 的第2个参数：
+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The definitions of those variables were the following:
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T015831Z" creationid="大处着手小处着眼" creationdate="20160719T100148Z">
+        <seg>下面各项是这些变量的定义：
 )</seg>
       </tuv>
     </tu>
@@ -3287,10 +3515,26 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The only difference is that the number of values associated with the variable is specified in square brackets.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T022710Z" creationid="大处着手小处着眼" creationdate="20160720T022710Z">
+        <seg>唯一的区别是，与变量相关联的值的个数在方括号中指定。.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The same operators can be used with strings as well, but with a different meaning: strings are ordered $(I lexicographically).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160716T000051Z" creationid="大处着手小处着眼" creationdate="20160715T034841Z">
-        <seg>同样的操作也能用于字符串，但含义不同：字符串按$(I 字典顺序) 排序。</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T063719Z" creationid="大处着手小处着眼" creationdate="20160715T034841Z">
+        <seg>同样的操作也能用于字符串，但含义不同：字符串按$(I 字典顺序)排序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The second line is the definition of a variable which stores ten consecutive values.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T023429Z" creationid="大处着手小处着眼" creationdate="20160720T023429Z">
+        <seg>第二行定义了一个存储连续十个值的变量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3445,6 +3689,24 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Variables which only store a single value are called scalar variables.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T031128Z" creationid="大处着手小处着眼" creationdate="20160720T030929Z">
+        <seg>只存储一个值的变量称为 scalar 变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We can contrast the two definitions as follows:
+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T022850Z" creationid="大处着手小处着眼" creationdate="20160720T022850Z">
+        <seg>我们可以对比两种定义如下：
+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We will</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Hipter" changedate="20160711T011230Z" creationid="Hipter" creationdate="20160711T011230Z">
@@ -3465,8 +3727,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
       <tuv lang="EN-US">
         <seg>We will see Phobos ranges in a later chapter.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160716T090310Z" creationid="大处着手小处着眼" creationdate="20160714T094241Z">
-        <seg>在稍后的一章中我们将看到 Phobos 的 ranges 。</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T232641Z" creationid="大处着手小处着眼" creationdate="20160714T094241Z">
+        <seg>在稍后的一章中我们将看到 Phobos 的 ranges。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3529,6 +3791,14 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also think of it as defining ten variables of the same type, or as defining an array, for short.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T024941Z" creationid="大处着手小处着眼" creationdate="20160720T024926Z">
+        <seg>你也可以把它定义为同类型的十个变量，或作为数组定义的简称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can apply this guideline blindly unless there are compilation errors:
 )</seg>
       </tuv>
@@ -3549,8 +3819,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
       <tuv lang="EN-US">
         <seg>You may find especially the Phobos ranges confusing at this point.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160714T094806Z" creationid="大处着手小处着眼" creationdate="20160714T094151Z">
-        <seg>在这一点上，你会发现 Phobos 的让人迷惑的 ranges 尤其明显。</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160719T104828Z" creationid="大处着手小处着眼" creationdate="20160714T094151Z">
+        <seg>你可能会发现 Phobos 的 ranges 在这一点上尤其让人迷惑。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3558,8 +3828,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
         <seg>You may have to define variables of that exact type:
 )</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160715T144129Z" creationid="大处着手小处着眼" creationdate="20160715T144129Z">
-        <seg>您可能就需要定义确切的变量类型：
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T072929Z" creationid="大处着手小处着眼" creationdate="20160715T144129Z">
+        <seg>您可能就需要定义确切类型的变量：
 )</seg>
       </tuv>
     </tu>
