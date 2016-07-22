@@ -3828,8 +3828,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
         <seg>You may have to define variables of that exact type:
 )</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T072929Z" creationid="大处着手小处着眼" creationdate="20160715T144129Z">
-        <seg>您可能就需要定义确切类型的变量：
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160722T105723Z" creationid="大处着手小处着眼" creationdate="20160715T144129Z">
+        <seg>您可能就需要定义该类型的变量：
 )</seg>
       </tuv>
     </tu>
