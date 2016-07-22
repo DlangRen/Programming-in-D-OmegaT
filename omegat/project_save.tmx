@@ -128,8 +128,8 @@
       <tuv lang="EN-US">
         <seg>$(H5 $(IX formattedRead) $(C formattedRead) for parsing strings)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T160043Z" creationid="Hipter" creationdate="20160712T022848Z">
-        <seg>$(H5 $(IX formattedRead) 用 $(C formattedRead) 函数来解析字符串)</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T132149Z" creationid="Hipter" creationdate="20160712T022848Z">
+        <seg>$(H5 $(IX formattedRead) 使用 $(C formattedRead) 函数来解析字符串)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1060,9 +1060,9 @@ Because Unicode adopts the letters of the basic Latin alphabet from the ASCII ta
         <seg>$(P
 Because all of the Unicode characters of "résumé" can be represented by a single $(C wchar) or $(C dchar), the last two lengths are equal to the number of characters.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T152958Z" creationid="大处着手小处着眼" creationdate="20160715T031823Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T143937Z" creationid="大处着手小处着眼" creationdate="20160715T031823Z">
         <seg>$(P
-因为所有的“résumé”的 Unicode 字符都能用单个 $(C wchar) 或者 $(C dchar) 表示，所以最后的两个长度与字符个数是一致的。</seg>
+因为所有的“résumé”的 Unicode 字符都能用单个 $(C wchar) 或者 $(C dchar) 表示，所以最后两个的长度与字符个数是一致的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1090,9 +1090,9 @@ Because each character has a unique code, every letter variant is different from
         <seg>$(P
 Because strings are arrays (and as a corollary, $(I ranges)), the functions of the $(C std.array), $(C std.algorithm), and $(C std.range) modules are very useful with strings as well.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T154146Z" creationid="大处着手小处着眼" creationdate="20160715T143825Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T124852Z" creationid="大处着手小处着眼" creationdate="20160715T143825Z">
         <seg>$(P
-因为字符串是数组(进一步而言，是 $(I ranges))，所以 $(C std.array)、$(C std.algorithm) 和 $(C std.range) 模块中的函数对于字符串也都非常有用。</seg>
+因为字符串是数组(进一步而言，是 $(I range))，所以 $(C std.array)、$(C std.algorithm) 和 $(C std.range) 模块中的函数对于字符串也都非常有用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1165,9 +1165,9 @@ For example, an associative array that maps day names of type $(C string) to day
 For example, the following code that tries to capitalize the first letter of a $(C string) would cause a compilation error:
 )</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T145809Z" creationid="Hipter" creationdate="20160712T082540Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T134044Z" creationid="Hipter" creationdate="20160712T082540Z">
         <seg>$(P
-例如，下面这段代码尝试着修改$(C string) 的首字母为大写，这将引发一个编译错误： 
+例如，下面这段代码尝试着修改 $(C string) 的首字母为大写，这将引发一个编译错误： 
 )</seg>
       </tuv>
     </tu>
@@ -1230,9 +1230,9 @@ How can you solve this problem?</seg>
         <seg>$(P
 I will start using that form after introducing the $(C string) type below.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T141549Z" creationid="Hipter" creationdate="20160712T021829Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T131706Z" creationid="Hipter" creationdate="20160712T021829Z">
         <seg>$(P
-在介绍了下面的 $(C string) 类型之后，我将开始使用这种格式。</seg>
+在介绍了下面的 $(C string) 类型之后，我们将开始使用这种格式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2456,8 +2456,8 @@ $(LI $(C scope(exit))：表达式总是在退出作用域时被执行， 无论�
         <seg>(We will see D's $(I immutability) concept in later chapters.)
 )</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T063441Z" creationid="Hipter" creationdate="20160712T082117Z">
-        <seg>(在稍后的章节我们将看到 D 的$(I 不可变性)概念。)
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T134539Z" creationid="Hipter" creationdate="20160712T082117Z">
+        <seg>（在稍后的章节我们将看到 D 的$(I 不可变性)概念。）
 )</seg>
       </tuv>
     </tu>
@@ -2947,8 +2947,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
       <tuv lang="EN-US">
         <seg>For example, the characters of a $(C wchar[]) can be modified but the characters of a $(C wstring) cannot be modified.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T145626Z" creationid="Hipter" creationdate="20160712T081951Z">
-        <seg>例如，可以修改一个 $(C wchar[]) 中的字符，但不可修改一个 $(C wstring) 中的字符。</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T132216Z" creationid="Hipter" creationdate="20160712T081951Z">
+        <seg>例如，可以修改一个 $(C wchar[]) 中的字符，但不可以修改一个 $(C wstring) 中的字符。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3727,8 +3727,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
       <tuv lang="EN-US">
         <seg>We will see Phobos ranges in a later chapter.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T232641Z" creationid="大处着手小处着眼" creationdate="20160714T094241Z">
-        <seg>在稍后的一章中我们将看到 Phobos 的 ranges。</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T124954Z" creationid="大处着手小处着眼" creationdate="20160714T094241Z">
+        <seg>在稍后的一章中我们将看到 Phobos 的 range。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3819,8 +3819,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
       <tuv lang="EN-US">
         <seg>You may find especially the Phobos ranges confusing at this point.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160719T104828Z" creationid="大处着手小处着眼" creationdate="20160714T094151Z">
-        <seg>你可能会发现 Phobos 的 ranges 在这一点上尤其让人迷惑。</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T124952Z" creationid="大处着手小处着眼" creationdate="20160714T094151Z">
+        <seg>你可能会发现 Phobos 的 range 在这一点上尤其让人迷惑。</seg>
       </tuv>
     </tu>
     <tu>
