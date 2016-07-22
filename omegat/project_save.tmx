@@ -745,9 +745,9 @@ $(I $(B 注：) 在上面的代码中，一般不这样直接访问成员。</se
         <seg>$(P
 $(I $(B Note:) Unicode does not define how the characters are ordered other than their Unicode codes.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160718T153625Z" creationid="大处着手小处着眼" creationdate="20160715T033832Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160722T110655Z" creationid="大处着手小处着眼" creationdate="20160715T033832Z">
         <seg>$(P
-$(I $(B 注：)除了 Unicode 编码顺序之外，Unicode 不定义字符排序。</seg>
+$(I $(B 注：)除了 Unicode 编码顺序之外，Unicode 不定义字符的排列顺序。</seg>
       </tuv>
     </tu>
     <tu>
