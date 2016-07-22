@@ -3819,8 +3819,8 @@ $(LI 左手侧的 $(C char[]) 是一个切片，这意味着，一旦代码编�
       <tuv lang="EN-US">
         <seg>You may find especially the Phobos ranges confusing at this point.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160720T124952Z" creationid="大处着手小处着眼" creationdate="20160714T094151Z">
-        <seg>你可能会发现 Phobos 的 range 在这一点上尤其让人迷惑。</seg>
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160722T105630Z" creationid="大处着手小处着眼" creationdate="20160714T094151Z">
+        <seg>此刻你可能会发现 Phobos 的 range 尤其让人迷惑。</seg>
       </tuv>
     </tu>
     <tu>
