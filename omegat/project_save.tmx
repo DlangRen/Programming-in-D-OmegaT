@@ -2542,9 +2542,9 @@ This time the compilation error is due to the combination of two factors:
         <seg>$(P
 To see how this program is better than the previous one, imagine needing to read 20 values.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160726T104815Z" creationid="大处着手小处着眼" creationdate="20160725T081024Z">
+      <tuv lang="ZH-CN" changeid="大处着手小处着眼" changedate="20160726T134911Z" creationid="大处着手小处着眼" creationdate="20160725T081024Z">
         <seg>$(P
-要看一看这个程序怎样才能比以前的更好，让我们设想需要读取20个值。</seg>
+要看一看这个程序怎样才能比以前的更好，让我们设想需要读取 20 个值。</seg>
       </tuv>
     </tu>
     <tu>
