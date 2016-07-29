@@ -1,7 +1,7 @@
 # 欢迎来到 Programmin-in-D-OmegaT 项目
 
 ### 目标：
-  用 OmegaT 软件辅助翻译 Programming-in-D。
+  用 OmegaT 软件辅助翻译 Programming-in-D,想译哪一篇，请先熟读“Programming-in-D”项目下的README.md，译完后请把译好的d文件push到“Programming-in-D”项目的 d.cn 目录下。
 
 ### 项目源由：
 
